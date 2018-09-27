@@ -4,8 +4,8 @@ An Adobe After Effects script that takes timestamped text comments from video re
 In addition to beautiful bullet-text animations, it is designed to batch replace commercials and logos. This is useful for educational websites which change sponsors frequently. So you can easily swap commercial and logos for the "sponsor of the month", and then update video instances, while preserving your analytics and URL (especially if using business video hosting service such as Wistia)
 
 # FAQ
-- This should be saved as a .jsx file, and stored in the Adobe After Effects Script folder.
- - If windows, ensure your script folder has write access (so it can save the settings file, which saves your previous file pathways in the script gui)
+* This should be saved as a .jsx file, and stored in the Adobe After Effects Script folder.
+ * If windows, ensure your script folder has write access (so it can save the settings file, which saves your previous file pathways in the script gui)
 - source video should have the exact same name as the .aep
 - source video and .aep should be in the same folder
 - spreadsheet should have two columns. First column = local "commercial" pathway; second column = logo pathway
