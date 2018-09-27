@@ -9,9 +9,9 @@ In addition to beautiful bullet-text animations, it is designed to batch replace
 - source video should have the exact same name as the .aep
 - source video and .aep should be in the same folder
 - spreadsheet should have two columns. First column = local "commercial" pathway; second column = logo pathway
- - we recommend a pure white logo
- - optionally type "BLANK" in each cell to skip.
- - can have as many rows as you'd like. Each row = an instance of the video (with varying commercials / logos), for .aep file located in the main folder at the time of script run. 
+  - we recommend a pure white logo
+  - optionally type "BLANK" in each cell to skip.
+  - can have as many rows as you'd like. Each row = an instance of the video (with varying commercials / logos), for .aep file located in the main folder at the time of script run. 
 - need 4 seconds between previous bullet or sub-bullet and new title, otherwise there will be text overlap. If the next title appears within 4-6 seconds after the previous bullet or sub-bullet, the halfscreen will stay but the previous text will fade.
 - After running script, a new .aep file will be output. In can be useful to render these to an Adobe Media Encoder watch folder, for auto rendering. If there is a matching .aep file in the watch folder, it will be overwritten.
 - Must include `video-creator-template.aep` in the same scripts folder. Change the template, or update line 32, and save as new script, to have multiple script versions which run on different templates. This may be a useful future variable to offer on the script gui.
